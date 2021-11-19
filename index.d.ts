@@ -44,7 +44,7 @@ declare namespace RegexUnlink {
 
   const options: globOptions;
 
-  function unlink(path: string, callback?: Function): void;
+  function unlink(path: string, callback?: Function | undefined): void;
 
   function asyncUnlink(path: string): Promise<void>;
 }
