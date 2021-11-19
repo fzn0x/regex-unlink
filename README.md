@@ -8,6 +8,43 @@
 npm install regex-unlink
 ```
 
+### Usage
+
+The usage was so simple and similar with `fs.unlink`.
+
+```js
+// delete files with `.txt` extension using callback approach
+unlink("**/**.txt", (err) => {
+  if (err) {
+    console.log(err);
+    return;
+  }
+
+  console.log("Delete all .txt files successful!");
+});
+
+// you can specify path without regex
+unlink("./text.txt", (err) => {
+  if (err) {
+    console.log(err);
+    return;
+  }
+
+  console.log("Delete all .txt files successful!");
+});
+
+// delete files with `.txt` extension using asynchronous approach
+(async () => {
+  await asyncUnlink("**/**.txt", (err) => {
+    if (err) {
+      console.log(err);
+    }
+
+    console.log("Delete all .txt files successful!");
+  });
+})();
+```
+
 ### API
 
 [examples here.](./examples)\
