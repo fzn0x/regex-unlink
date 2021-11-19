@@ -10,7 +10,7 @@ npm install regex-unlink
 
 ### API
 
-[examples here.](./examples)
+[examples here.](./examples)\
 [declaration files here.](./index.ts)
 
 - **options:** `const options: globOptions;`
