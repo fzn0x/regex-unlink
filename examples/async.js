@@ -4,7 +4,7 @@ const { asyncUnlink } = require("../lib/regex-unlink");
   // asynchronous example :
   try {
     await asyncUnlink("**/**/**.txt");
-  } catch (e) {
-    console.err(e);
+  } catch (err) {
+    console.error(err);
   }
 })();
