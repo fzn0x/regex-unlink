@@ -1,6 +1,6 @@
 {
   "name": "regex-unlink",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "fs.unlink but accepts regex.",
   "main": "index",
   "typings": "index",
@@ -14,5 +14,9 @@
   "license": "MIT",
   "dependencies": {
     "glob": "^7.2.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/fncolon/regex-unlink/issues"
+  },
+  "homepage": "https://github.com/fncolon/regex-unlink#readme"
 }

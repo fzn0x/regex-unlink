@@ -2,7 +2,7 @@
 
 `fs.unlink` but accepts regex, works with `Promise` and `callback` approach.
 
-Why accepts regex? simply `glob` core using `minimatch` that use [regex.](https://github.com/isaacs/minimatch/blob/master/minimatch.js).
+Why accepts regex? simply `glob` core using `minimatch` that use [regex](https://github.com/isaacs/minimatch/blob/master/minimatch.js).
 
 ### Installation
 
